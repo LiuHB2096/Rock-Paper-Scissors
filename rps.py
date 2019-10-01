@@ -40,6 +40,7 @@ while True:
 	pChoice = input("Enter r (rock), p (paper), s (scissors or q (to quit): ")
 	# deal with player entering q
 	if pChoice == "q":
+		printScore()
 		break
 	# get computer choice (random)
 	cChoice = random.choice(computerChoices)
